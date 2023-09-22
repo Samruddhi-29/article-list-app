@@ -1,0 +1,37 @@
+
+.cmp-articlelist__cards-container{
+    display:flex;
+    flex-wrap : wrap;
+    
+   
+}
+.cmp-articlelist__cards {
+    display:flex;
+    flex-direction:column;
+    padding: 10px ;
+    width : 350px;
+    justify-items:center;
+    align-items:center;
+    border:1px solid black;
+    border-radius:10px;
+    padding:20px;
+    margin:20px;
+    text-align:center;
+}
+.cmp-articlelist__card-btn-container{
+    padding:20px ;
+   
+}
+.cmp-articlelist__card-btn {
+    padding: 15px 40px ;
+    background-color: #5E7263;
+    color:white;
+    text-align:center;
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius:10px
+}
+.cmp-articlelist__card-title{
+    font-size:24px;
+    font-weight:bold;
+}
